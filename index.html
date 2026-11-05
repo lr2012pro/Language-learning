@@ -16,7 +16,7 @@
       <a class="brand" href="#" aria-label="Cocina Club home">
         <span class="brand-mark">✦</span><span>cocina<span class="brand-light">club</span></span>
       </a>
-      <div class="top-right">
+      <div class="top-right"><a class="academy-nav" href="#academySection">A1 Academy <span>↗</span></a>
         <span class="level-pill"><span>🥑</span> <b id="levelLabel">Kitchen rookie</b></span>
         <div class="xp-wrap"><span id="xpLabel">0 XP</span><div class="xp-track"><div id="xpBar"></div></div></div>
       </div>
@@ -84,6 +84,13 @@
         </div>
       </section>
 
+      <section class="academy-section" id="academySection">
+        <div class="section-heading"><div><p class="eyebrow">A STRUCTURED BEGINNER COURSE</p><h2>Spanish A1 Academy</h2></div><a class="course-source" href="https://iespanol.org/spanish-a1-course/" target="_blank" rel="noopener noreferrer">Original course ↗</a></div>
+        <div class="academy-intro"><div class="academy-icon">🎓</div><div><strong>37 lessons. One learning path.</strong><p>Follow the four modules in order, open each lesson on iEspanol, and tick it off here when you finish. Your progress is saved on this device.</p></div><div class="academy-progress"><strong id="academyProgress">0/37</strong><small>LESSONS DONE</small><div class="academy-progress-track"><span id="academyProgressBar"></span></div></div></div>
+        <div id="academyModules" class="academy-modules"></div>
+        <p class="academy-credit">Lesson titles and course structure are listed here as a study guide. Lesson explanations, exercises and audio remain on <a href="https://iespanol.org/spanish-a1-course/" target="_blank" rel="noopener noreferrer">iEspanol.org</a>.</p>
+      </section>
+
       <section class="pantry-section" id="pantrySection">
         <div class="section-heading"><div><p class="eyebrow">YOUR PERSONAL VOCABULARY</p><h2>My word pantry</h2></div><button class="btn btn-outline" id="addWordBtn">＋ Add words</button></div>
         <div class="pantry-card">
@@ -109,6 +116,7 @@
     </div>
   </div>
   <div class="toast" id="toast" role="status"></div>
+  <script src="academy.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

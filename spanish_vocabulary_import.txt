@@ -1,0 +1,605 @@
+ser — to be (identity/essential nature)
+estar — to be (state/location)
+tener — to have
+haber — to have (auxiliary)
+hacer — to do / to make
+ir — to go
+venir — to come
+poder — can / to be able to
+querer — to want / to love
+deber — should / must / to owe
+saber — to know (facts/how to)
+conocer — to know / to be familiar with
+decir — to say / to tell
+hablar — to speak
+preguntar — to ask
+responder — to answer
+contestar — to answer / reply
+escuchar — to listen
+oír — to hear
+ver — to see
+mirar — to look at / watch
+leer — to read
+escribir — to write
+aprender — to learn
+estudiar — to study
+enseñar — to teach
+trabajar — to work
+jugar — to play
+vivir — to live
+comer — to eat
+beber — to drink
+desayunar — to eat breakfast
+almorzar — to have lunch
+cenar — to have dinner
+cocinar — to cook
+preparar — to prepare
+cortar — to cut
+pelar — to peel
+lavar — to wash
+limpiar — to clean
+abrir — to open
+cerrar — to close
+poner — to put / place
+quitar — to remove / take off
+llevar — to carry / wear / take
+traer — to bring
+dar — to give
+tomar — to take / drink
+comprar — to buy
+vender — to sell
+pagar — to pay
+costar — to cost
+buscar — to look for
+encontrar — to find
+necesitar — to need
+usar — to use
+ayudar — to help
+esperar — to wait / hope
+empezar — to begin
+comenzar — to start
+terminar — to finish
+acabar — to finish / end
+seguir — to follow / continue
+parar — to stop
+caminar — to walk
+correr — to run
+nadar — to swim
+bailar — to dance
+cantar — to sing
+viajar — to travel
+llegar — to arrive
+salir — to leave / go out
+entrar — to enter
+volver — to return
+subir — to go up / get on
+bajar — to go down / get off
+dormir — to sleep
+despertarse — to wake up
+levantarse — to get up
+sentarse — to sit down
+estar de pie — to stand
+ducharse — to shower
+bañarse — to bathe
+vestirse — to get dressed
+ponerse — to put on (clothes)
+llamarse — to be called / named
+gustar — to like
+encantar — to love / really like
+preferir — to prefer
+pensar — to think
+creer — to believe / think
+recordar — to remember
+olvidar — to forget
+sentir — to feel
+reír — to laugh
+sonreír — to smile
+llorar — to cry
+juntar — to join / gather
+elegir — to choose
+cambiar — to change
+probar — to try / taste
+mezclar — to mix
+añadir — to add
+freír — to fry
+hervir — to boil
+hornear — to bake
+servir — to serve
+tener que — to have to
+hay que — one must / it is necessary to
+parecer — to seem
+permitir — to allow
+pasar — to happen / pass / spend time
+quedar — to remain / meet up
+la persona — person
+el hombre — man
+la mujer — woman
+el niño — boy / child
+la niña — girl / child
+el bebé — baby
+la familia — family
+la madre — mother
+el padre — father
+los padres — parents
+el hermano — brother
+la hermana — sister
+el hijo — son
+la hija — daughter
+el abuelo — grandfather
+la abuela — grandmother
+el nieto — grandson
+la nieta — granddaughter
+el tío — uncle
+la tía — aunt
+el primo — male cousin
+la prima — female cousin
+el amigo — male friend
+la amiga — female friend
+el vecino — male neighbour
+la vecina — female neighbour
+el profesor — male teacher
+la profesora — female teacher
+el estudiante — male student
+la estudiante — female student
+el médico — doctor
+la médica — female doctor
+el camarero — waiter
+la camarera — waitress
+la comida — food / meal
+el desayuno — breakfast
+el almuerzo — lunch
+la cena — dinner
+la merienda — snack
+el pan — bread
+la mantequilla — butter
+el queso — cheese
+el huevo — egg
+la leche — milk
+el yogur — yoghurt
+el arroz — rice
+la pasta — pasta
+la harina — flour
+el azúcar — sugar
+la sal — salt
+la pimienta — pepper
+el aceite — oil
+el vinagre — vinegar
+la sopa — soup
+la ensalada — salad
+la carne — meat
+el pollo — chicken
+la ternera — beef
+el cerdo — pork
+el pescado — fish
+el marisco — seafood
+el jamón — ham
+la salchicha — sausage
+la patata — potato
+la papa — potato (Latin America)
+el tomate — tomato
+la cebolla — onion
+el ajo — garlic
+la zanahoria — carrot
+el pepino — cucumber
+la lechuga — lettuce
+el pimiento — pepper
+la berenjena — aubergine / eggplant
+el calabacín — courgette / zucchini
+el champiñón — mushroom
+el maíz — corn
+el guisante — pea
+las judías — beans
+la manzana — apple
+el plátano — banana
+la banana — banana
+la naranja — orange
+el limón — lemon
+la fresa — strawberry
+la uva — grape
+la pera — pear
+el melocotón — peach
+la sandía — watermelon
+el melón — melon
+la piña — pineapple
+el mango — mango
+el aguacate — avocado
+el chocolate — chocolate
+el pastel — cake
+la galleta — biscuit / cookie
+el helado — ice cream
+la miel — honey
+el café — coffee
+el té — tea
+el agua — water
+el zumo — juice
+el jugo — juice (Latin America)
+el refresco — soft drink
+la limonada — lemonade
+la cocina — kitchen / cooking
+el cocinero — cook / chef
+la receta — recipe
+el ingrediente — ingredient
+la olla — pot
+la sartén — frying pan
+la cacerola — saucepan
+la tapa — lid
+el cuchillo — knife
+el tenedor — fork
+la cuchara — spoon
+la cucharita — teaspoon
+el plato — plate / dish
+el cuenco — bowl
+el vaso — glass
+la taza — cup
+la botella — bottle
+la jarra — jug
+la tabla de cortar — chopping board
+el horno — oven
+el microondas — microwave
+la nevera — fridge
+el frigorífico — refrigerator
+el congelador — freezer
+el fregadero — sink
+el lavavajillas — dishwasher
+la estufa — stove
+el fuego — heat / flame
+la temperatura — temperature
+la porción — portion
+la cucharada — tablespoon
+la cucharadita — teaspoonful
+el gramo — gram
+el kilo — kilogram
+el litro — litre
+la taza de — cup of
+una pizca de — a pinch of
+caliente — hot
+frío — cold
+dulce — sweet
+salado — salty
+amargo — bitter
+ácido — sour
+crudo — raw
+cocido — cooked
+fresco — fresh
+picante — spicy
+delicioso — delicious
+rico — tasty / delicious
+quemado — burnt
+listo — ready
+la casa — house / home
+el piso — flat / apartment
+la habitación — room / bedroom
+el salón — living room
+el baño — bathroom
+el dormitorio — bedroom
+la puerta — door
+la ventana — window
+la mesa — table
+la silla — chair
+el sofá — sofa
+la cama — bed
+el armario — wardrobe
+la lámpara — lamp
+la luz — light
+la llave — key
+el teléfono — phone
+el móvil — mobile phone
+el ordenador — computer
+el portátil — laptop
+la televisión — television
+el libro — book
+el cuaderno — notebook
+el lápiz — pencil
+el bolígrafo — pen
+la mochila — backpack
+la ropa — clothes
+los zapatos — shoes
+la camiseta — T-shirt
+los pantalones — trousers / pants
+el vestido — dress
+la chaqueta — jacket
+el abrigo — coat
+los calcetines — socks
+el dinero — money
+la cartera — wallet
+el reloj — watch / clock
+el lugar — place
+la ciudad — city
+el pueblo — town / village
+el país — country
+la calle — street
+la plaza — square
+la tienda — shop
+el supermercado — supermarket
+el mercado — market
+el restaurante — restaurant
+la escuela — school
+el colegio — school
+la universidad — university
+el hospital — hospital
+la farmacia — pharmacy
+el banco — bank
+la estación — station
+el aeropuerto — airport
+la playa — beach
+el parque — park
+el museo — museum
+el hotel — hotel
+la biblioteca — library
+el baño público — public toilet
+el coche — car
+el autobús — bus
+el tren — train
+el metro — metro / subway
+la bicicleta — bicycle
+la moto — motorbike
+el avión — aeroplane
+el barco — boat / ship
+el taxi — taxi
+el billete — ticket
+el mapa — map
+la parada — stop
+la estación de tren — train station
+a la derecha — to the right
+a la izquierda — to the left
+todo recto — straight ahead
+cerca — near
+lejos — far
+el tiempo — time / weather
+el día — day
+la semana — week
+el mes — month
+el año — year
+hoy — today
+mañana — tomorrow / morning
+ayer — yesterday
+ahora — now
+después — after / later
+antes — before
+pronto — soon
+tarde — late / afternoon
+temprano — early
+la hora — hour / time
+el minuto — minute
+el segundo — second
+lunes — Monday
+martes — Tuesday
+miércoles — Wednesday
+jueves — Thursday
+viernes — Friday
+sábado — Saturday
+domingo — Sunday
+enero — January
+febrero — February
+marzo — March
+abril — April
+mayo — May
+junio — June
+julio — July
+agosto — August
+septiembre — September
+octubre — October
+noviembre — November
+diciembre — December
+la mañana — morning
+la tarde — afternoon
+la noche — night
+la medianoche — midnight
+cero — zero
+uno — one
+dos — two
+tres — three
+cuatro — four
+cinco — five
+seis — six
+siete — seven
+ocho — eight
+nueve — nine
+diez — ten
+once — eleven
+doce — twelve
+trece — thirteen
+catorce — fourteen
+quince — fifteen
+dieciséis — sixteen
+diecisiete — seventeen
+dieciocho — eighteen
+diecinueve — nineteen
+veinte — twenty
+treinta — thirty
+cuarenta — forty
+cincuenta — fifty
+sesenta — sixty
+setenta — seventy
+ochenta — eighty
+noventa — ninety
+cien — one hundred
+mil — one thousand
+primero — first
+segundo — second
+tercero — third
+mucho — a lot / much
+poco — little / not much
+más — more
+menos — less
+todo — all / everything
+nada — nothing
+cada — each / every
+algunos — some
+bastante — enough / quite a lot
+demasiado — too much
+bueno — good
+malo — bad
+grande — big
+pequeño — small
+alto — tall / high
+bajo — short / low
+largo — long
+corto — short
+nuevo — new
+viejo — old
+joven — young
+bonito — pretty
+feo — ugly
+fácil — easy
+difícil — difficult
+rápido — fast
+lento — slow
+caro — expensive
+barato — cheap
+importante — important
+interesante — interesting
+aburrido — boring
+feliz — happy
+triste — sad
+cansado — tired
+enfermo — ill
+sano — healthy
+limpio — clean
+sucio — dirty
+lleno — full
+vacío — empty
+abierto — open
+cerrado — closed
+diferente — different
+igual — same / equal
+posible — possible
+imposible — impossible
+templado — warm / lukewarm
+fuerte — strong
+débil — weak
+amable — kind / friendly
+simpático — nice / friendly
+ocupado — busy
+libre — free / available
+seguro — safe / sure
+rojo — red
+azul — blue
+amarillo — yellow
+verde — green
+negro — black
+blanco — white
+gris — grey
+marrón — brown
+naranja — orange
+rosa — pink
+morado — purple
+el sol — sun
+la luna — moon
+la estrella — star
+el cielo — sky
+la nube — cloud
+la lluvia — rain
+la nieve — snow
+el viento — wind
+el mar — sea
+el río — river
+la montaña — mountain
+el árbol — tree
+la flor — flower
+el animal — animal
+el perro — dog
+el gato — cat
+el pájaro — bird
+el caballo — horse
+la vaca — cow
+el tiempo hace sol — it is sunny
+hace frío — it is cold
+hace calor — it is hot
+está lloviendo — it is raining
+yo — I
+tú — you (informal singular)
+él — he
+ella — she
+usted — you (formal singular)
+nosotros — we (masculine/mixed)
+nosotras — we (feminine)
+vosotros — you (plural, Spain)
+vosotras — you (plural feminine, Spain)
+ellos — they (masculine/mixed)
+ellas — they (feminine)
+ustedes — you (plural)
+me — me / myself
+te — you / yourself
+se — himself / herself / themselves
+mi — my
+tu — your
+su — his / her / your / their
+nuestro — our
+este — this (masculine)
+esta — this (feminine)
+ese — that (masculine)
+esa — that (feminine)
+aquel — that over there (masculine)
+qué — what
+quién — who
+cuándo — when
+dónde — where
+adónde — where to
+de dónde — where from
+por qué — why
+cómo — how
+cuánto — how much
+cuántos — how many (masculine)
+cuántas — how many (feminine)
+cuál — which / what
+y — and
+o — or
+pero — but
+porque — because
+también — also
+tampoco — neither / not either
+con — with
+sin — without
+de — of / from
+a — to / at
+en — in / on / at
+por — by / through / for
+para — for / in order to
+sobre — on / about
+entre — between
+muy — very
+bien — well
+mal — badly
+sí — yes
+no — no / not
+quizás — perhaps
+siempre — always
+nunca — never
+a veces — sometimes
+aquí — here
+allí — there
+algo — something
+alguien — someone
+nadie — nobody
+hola — hello
+buenos días — good morning
+buenas tardes — good afternoon
+buenas noches — good evening / good night
+adiós — goodbye
+hasta luego — see you later
+por favor — please
+gracias — thank you
+muchas gracias — thank you very much
+de nada — you're welcome
+perdón — sorry / excuse me
+lo siento — I'm sorry
+no entiendo — I don't understand
+¿Puede repetir? — Can you repeat? (formal)
+más despacio, por favor — more slowly, please
+¿Qué significa...? — What does ... mean?
+¿Cómo se dice...? — How do you say ...?
+me llamo... — my name is...
+¿Cómo te llamas? — What's your name?
+¿Cuánto cuesta? — How much does it cost?
+la cuenta, por favor — the bill, please
+tengo hambre — I'm hungry
+tengo sed — I'm thirsty
+tengo sueño — I'm sleepy
+tengo frío — I'm cold
+tengo calor — I'm hot
+¿Dónde está...? — Where is ...?
+¿Me puede ayudar? — Can you help me?
+no pasa nada — it's okay / no problem
+¡buen provecho! — enjoy your meal!
+¡salud! — cheers! / bless you!

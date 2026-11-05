@@ -34,3 +34,7 @@ XP, learned words and your custom word pantry are stored in local browser storag
 - All parsing and file reading happen in your browser; uploaded vocabulary is not sent to a server.
 - Google Fonts are optional; if offline, the browser uses fallback fonts.
 - DOCX/PDF import requires internet access for the library CDN.
+
+
+## Spanish A1 Academy
+The website includes a 37-lesson A1 course roadmap based on the public lesson index at iEspanol.org. Each lesson opens its original page in a new tab. Tick the checkbox next to a lesson to track your progress locally. Lesson progress is stored separately from the vocabulary and game XP. The website does not copy or host iEspanol's lesson text, exercises, or audio. An internet connection is needed to open the external lessons.
