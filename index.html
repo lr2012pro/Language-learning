@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#173d32">
+  <title>Cocina Club — Spanish Kitchen Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Cocina Club home">
+        <span class="brand-mark">✦</span><span>cocina<span class="brand-light">club</span></span>
+      </a>
+      <div class="top-right">
+        <span class="level-pill"><span>🥑</span> <b id="levelLabel">Kitchen rookie</b></span>
+        <div class="xp-wrap"><span id="xpLabel">0 XP</span><div class="xp-track"><div id="xpBar"></div></div></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="live-dot"></span> YOUR SPANISH PRACTICE KITCHEN</p>
+          <h1>Learn Spanish.<br><em>Cook up</em> a storm.</h1>
+          <p class="hero-sub">Turn your own word list into a delicious little language challenge. Learn ingredients, verbs, everyday words and more.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="startBtn">Start cooking <span>→</span></button>
+            <button class="btn btn-quiet" id="wordsBtn">My ingredients <span>↗</span></button>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a Spanish cooking pot">
+          <div class="sun-disc"></div><div class="steam steam-one"></div><div class="steam steam-two"></div>
+          <div class="art-leaf leaf-one">✦</div><div class="art-leaf leaf-two">✳</div>
+          <div class="pot"><div class="pot-lid"></div><div class="pot-knob"></div><div class="pot-body"><span>¡olé!</span></div><div class="pot-handle left"></div><div class="pot-handle right"></div><div class="pot-foot f1"></div><div class="pot-foot f2"></div></div>
+          <div class="art-caption">¡A cocinar!</div>
+          <div class="floating-chip chip-top">🌶️ vocabulario</div><div class="floating-chip chip-bottom">⭐ +10 XP</div>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Your progress">
+        <article class="stat-card"><span class="stat-icon">📚</span><div><strong id="wordCount">12</strong><small>WORDS IN YOUR PANTRY</small></div></article>
+        <article class="stat-card"><span class="stat-icon">🔥</span><div><strong id="streakCount">0</strong><small>ANSWER STREAK</small></div></article>
+        <article class="stat-card"><span class="stat-icon">🏅</span><div><strong id="masteredCount">0</strong><small>WORDS MASTERED</small></div></article>
+      </section>
+
+      <section class="game-section" id="gameSection">
+        <div class="section-heading"><div><p class="eyebrow">PICK YOUR CHALLENGE</p><h2>What's on the menu?</h2></div><span class="section-note">Small lessons. Big flavour.</span></div>
+        <div class="mode-grid">
+          <button class="mode-card mode-featured" data-mode="quiz"><span class="mode-emoji">🍳</span><span class="mode-tag">MOST POPULAR</span><strong>Kitchen rush</strong><small>Choose the right translation before the timer runs out.</small><span class="mode-link">Play now <b>→</b></span></button>
+          <button class="mode-card" data-mode="flash"><span class="mode-emoji">🧑‍🍳</span><strong>Chef's flashcards</strong><small>Flip through your words and build confidence.</small><span class="mode-link">Study words <b>→</b></span></button>
+          <button class="mode-card" data-mode="match"><span class="mode-emoji">🥘</span><strong>Pair the plates</strong><small>Match Spanish words with their meanings.</small><span class="mode-link">Match pairs <b>→</b></span></button>
+        </div>
+      </section>
+
+      <section class="game-panel hidden" id="gamePanel" aria-live="polite">
+        <div class="game-top"><button class="back-btn" id="backBtn">← Menu</button><div class="game-meta"><span id="modeName">KITCHEN RUSH</span><span id="roundLabel">ROUND 1</span></div><button class="sound-btn" id="soundBtn" title="Toggle sound" aria-label="Toggle sound">🔊</button></div>
+        <div id="quizView" class="game-view hidden">
+          <div class="round-progress"><div id="roundProgress"></div></div>
+          <div class="question-kicker" id="questionKicker">WHAT DOES THIS MEAN?</div>
+          <div class="question-word" id="questionWord">la manzana</div>
+          <div class="timer-line"><span>⏱</span><div class="timer-track"><div id="timerBar"></div></div><b id="timerText">15</b></div>
+          <div class="answers" id="answers"></div>
+          <p class="feedback" id="feedback" role="status"></p>
+          <button class="btn btn-primary next-btn hidden" id="nextBtn">Next question →</button>
+        </div>
+        <div id="flashView" class="game-view hidden">
+          <div class="flash-count" id="flashCount">CARD 1 / 12</div>
+          <button class="flashcard" id="flashcard"><span class="flash-hint">TAP TO REVEAL</span><strong id="flashWord">la manzana</strong><span class="flash-answer hidden" id="flashAnswer">the apple</span><span class="flash-category" id="flashCategory">FOOD</span></button>
+          <div class="flash-controls"><button class="btn btn-outline" id="prevFlash">← Previous</button><button class="btn btn-primary" id="nextFlash">Next card →</button></div>
+          <div class="know-row"><button id="knowBtn" class="know-btn">✓ I know this word</button></div>
+        </div>
+        <div id="matchView" class="game-view hidden">
+          <p class="question-kicker">FIND THE PAIRS</p><p class="match-instruction">Select a Spanish word, then its English meaning.</p>
+          <div class="match-grid" id="matchGrid"></div><p class="feedback" id="matchFeedback" role="status"></p>
+          <button class="btn btn-primary next-btn hidden" id="matchAgain">Play another round →</button>
+        </div>
+        <div id="resultView" class="game-view result-view hidden">
+          <div class="result-emoji" id="resultEmoji">🎉</div><p class="eyebrow">SERVICE COMPLETE</p><h2 id="resultTitle">¡Buen trabajo!</h2><p id="resultText">You earned 30 XP.</p><div class="result-score"><strong id="resultScore">0/10</strong><span>correct answers</span></div><button class="btn btn-primary" id="playAgain">Cook again →</button>
+        </div>
+      </section>
+
+      <section class="pantry-section" id="pantrySection">
+        <div class="section-heading"><div><p class="eyebrow">YOUR PERSONAL VOCABULARY</p><h2>My word pantry</h2></div><button class="btn btn-outline" id="addWordBtn">＋ Add words</button></div>
+        <div class="pantry-card">
+          <div class="pantry-toolbar"><div class="search-wrap"><span>⌕</span><input id="searchWords" type="search" placeholder="Search your words..." aria-label="Search words"></div><select id="categoryFilter" aria-label="Filter by category"><option value="all">All categories</option></select><span class="pantry-total" id="pantryTotal">12 words</span></div>
+          <div class="word-list" id="wordList"></div>
+          <div class="empty-state hidden" id="emptyWords"><span>🧺</span><strong>Your pantry is empty</strong><p>Add a word list to get cooking.</p><button class="btn btn-primary" id="emptyAddBtn">Add your first words</button></div>
+        </div>
+      </section>
+    </main>
+    <footer><span>✦ cocina club</span><span>Made for curious minds · ¡Buen provecho!</span></footer>
+  </div>
+
+  <div class="modal-backdrop hidden" id="importModal" role="dialog" aria-modal="true" aria-labelledby="importTitle">
+    <div class="modal">
+      <button class="modal-close" id="closeModal" aria-label="Close">×</button>
+      <p class="eyebrow">STOCK YOUR PANTRY</p><h2 id="importTitle">Bring your own words.</h2>
+      <p class="modal-intro">Paste a list or import a TXT, CSV, PDF or DOCX file. We'll turn it into your next Spanish lesson.</p>
+      <div class="format-tip"><b>Easy format</b><code>la manzana — the apple<br>correr — to run<br>la cocina — kitchen</code><small>One pair per line. Separate Spanish and meaning with a dash, comma, semicolon or tab.</small></div>
+      <label class="field-label" for="wordInput">PASTE YOUR WORDS</label>
+      <textarea id="wordInput" placeholder="la manzana — the apple&#10;correr — to run&#10;la cocina — kitchen"></textarea>
+      <div class="import-row"><label class="file-drop" for="fileInput"><span>📎</span><b>Choose a file</b><small>TXT · CSV · PDF · DOCX</small></label><input id="fileInput" type="file" accept=".txt,.csv,.tsv,.pdf,.docx,.doc" hidden><span id="fileName" class="file-name">No file selected</span></div>
+      <div class="modal-bottom"><span id="importStatus" role="status">You can add more words at any time.</span><button class="btn btn-primary" id="importBtn">Add to pantry <span>→</span></button></div>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
