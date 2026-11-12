@@ -12,7 +12,7 @@ A responsive, browser-based Spanish vocabulary arcade game. No installation or s
 - **Chef's Flashcards:** reveal meanings and mark words you know.
 - **Pair the Plates:** match Spanish and English pairs.
 - **Word Scramble:** unscramble Spanish words against a 30-second clock.
-- **Cocina Dash:** a fast-paced 45-second service shift. Serve the correct Spanish word, build combos, score points and keep three hearts.
+- **Cocina Quest:** a playable 2D side-scrolling platform game. Move with A/D or the arrow keys, jump with Space or Up, collect floating vocabulary ingredients, and reach the kitchen exit. Mobile on-screen controls are included. Each collected word shows its Spanish and English meaning and earns XP.
 
 ## Curated starter vocabulary
 The starter pantry now contains 43 carefully selected beginner words focused on useful food, kitchen equipment and cooking verbs. The included CSV/TXT lists contain the same curated set, rather than the previous large mixed vocabulary dump. You can still add your own words whenever you want.
@@ -36,3 +36,6 @@ The website includes a 37-lesson A1 course roadmap based on the public lesson in
 ## Notes
 - Vocabulary parsing and file reading happen in your browser; uploaded vocabulary is not sent to a server.
 - Google Fonts are optional; the browser uses fallback fonts offline.
+
+
+You can remove individual words from **My word pantry** using the ✕ button beside each entry. Deletions are saved locally, including when the pantry becomes empty.

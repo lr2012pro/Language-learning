@@ -55,7 +55,7 @@
           <button class="mode-card" data-mode="flash"><span class="mode-emoji">🧑‍🍳</span><strong>Chef's flashcards</strong><small>Flip through your words and build confidence.</small><span class="mode-link">Study words <b>→</b></span></button>
           <button class="mode-card" data-mode="match"><span class="mode-emoji">🥘</span><strong>Pair the plates</strong><small>Match Spanish words with their meanings.</small><span class="mode-link">Match pairs <b>→</b></span></button>
           <button class="mode-card mode-arcade" data-mode="scramble"><span class="mode-emoji">🔤</span><span class="mode-tag">NEW ARCADE MODE</span><strong>Word scramble</strong><small>Unscramble Spanish words before the clock hits zero.</small><span class="mode-link">Play challenge <b>→</b></span></button>
-          <button class="mode-card mode-dash" data-mode="dash"><span class="mode-emoji">⚡</span><span class="mode-tag">FAST-PACED ARCADE</span><strong>Cocina Dash</strong><small>Serve the right Spanish order, build combos and keep customers happy.</small><span class="mode-link">Start your shift <b>→</b></span></button>
+          <button class="mode-card mode-dash" data-mode="dash"><span class="mode-emoji">⚡</span><span class="mode-tag">2D PLATFORM ARCADE</span><strong>Cocina Quest</strong><small>Run, jump across kitchen platforms and collect Spanish ingredients.</small><span class="mode-link">Enter the kitchen <b>→</b></span></button>
         </div>
       </section>
 
@@ -87,13 +87,12 @@
           <div class="scramble-actions"><button class="btn btn-outline" id="scrambleClear">↶ Clear</button><button class="btn btn-outline" id="scrambleHint">💡 Hint</button><button class="btn btn-primary" id="scrambleSubmit">Check answer →</button></div>
           <button class="btn btn-primary next-btn hidden" id="scrambleNext">Next word →</button>
         </div>
-        <div id="dashView" class="game-view dash-view hidden">
-          <div class="dash-hud"><span>⏱ <b id="dashTimer">45</b>s</span><span>⭐ <b id="dashScore">0</b></span><span id="dashLives">♥ ♥ ♥</span><span>COMBO <b id="dashCombo">×1</b></span></div>
-          <div class="dash-counter">🍽️ CUSTOMER ORDER</div>
-          <div class="dash-customer"><div class="customer-avatar">🧑‍🍳</div><div><small>THE CUSTOMER WANTS</small><strong id="dashOrder">the apple</strong><p>Choose the correct Spanish item to serve!</p></div></div>
-          <div class="dash-choices" id="dashChoices"></div>
-          <p class="feedback" id="dashFeedback" role="status">A customer is waiting!</p>
-          <p class="dash-tip">Correct orders build your combo. Three mistakes end your shift.</p>
+        <div id="dashView" class="game-view quest-view hidden">
+          <div class="quest-hud"><span>⭐ <b id="questScore">0</b> ingredients</span><span>📖 <b id="questFound">0</b>/<b id="questTotal">0</b> words</span><span id="questStatus">Find the kitchen door!</span></div>
+          <div class="quest-stage"><canvas id="questCanvas" width="960" height="420" aria-label="2D platform game: move and jump through a kitchen collecting Spanish vocabulary ingredients"></canvas></div>
+          <div class="quest-controls"><div class="quest-mobile-controls"><button id="questLeft" aria-label="Move left">◀</button><button id="questRight" aria-label="Move right">▶</button><button id="questJump" aria-label="Jump">⤒</button></div><div class="quest-key-help">MOVE: <b>A / D</b> or <b>← / →</b> · JUMP: <b>SPACE</b> / <b>↑</b></div><button class="btn btn-outline" id="questRestart">↻ Restart level</button></div>
+          <div class="quest-word-log" id="questWordLog"><span>Collected words will appear here.</span></div>
+          <p class="quest-tip">Collect floating ingredients to reveal their Spanish and English meanings. Reach the green kitchen door to finish the level.</p>
         </div>
         <div id="matchView" class="game-view hidden">
           <p class="question-kicker">FIND THE PAIRS</p><p class="match-instruction">Select a Spanish word, then its English meaning.</p>
