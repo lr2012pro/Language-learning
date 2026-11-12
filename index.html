@@ -54,6 +54,8 @@
           <button class="mode-card mode-featured" data-mode="quiz"><span class="mode-emoji">🍳</span><span class="mode-tag">MOST POPULAR</span><strong>Kitchen rush</strong><small>Choose the right translation before the timer runs out.</small><span class="mode-link">Play now <b>→</b></span></button>
           <button class="mode-card" data-mode="flash"><span class="mode-emoji">🧑‍🍳</span><strong>Chef's flashcards</strong><small>Flip through your words and build confidence.</small><span class="mode-link">Study words <b>→</b></span></button>
           <button class="mode-card" data-mode="match"><span class="mode-emoji">🥘</span><strong>Pair the plates</strong><small>Match Spanish words with their meanings.</small><span class="mode-link">Match pairs <b>→</b></span></button>
+          <button class="mode-card mode-arcade" data-mode="scramble"><span class="mode-emoji">🔤</span><span class="mode-tag">NEW ARCADE MODE</span><strong>Word scramble</strong><small>Unscramble Spanish words before the clock hits zero.</small><span class="mode-link">Play challenge <b>→</b></span></button>
+          <button class="mode-card mode-dash" data-mode="dash"><span class="mode-emoji">⚡</span><span class="mode-tag">FAST-PACED ARCADE</span><strong>Cocina Dash</strong><small>Serve the right Spanish order, build combos and keep customers happy.</small><span class="mode-link">Start your shift <b>→</b></span></button>
         </div>
       </section>
 
@@ -73,6 +75,25 @@
           <button class="flashcard" id="flashcard"><span class="flash-hint">TAP TO REVEAL</span><strong id="flashWord">la manzana</strong><span class="flash-answer hidden" id="flashAnswer">the apple</span><span class="flash-category" id="flashCategory">FOOD</span></button>
           <div class="flash-controls"><button class="btn btn-outline" id="prevFlash">← Previous</button><button class="btn btn-primary" id="nextFlash">Next card →</button></div>
           <div class="know-row"><button id="knowBtn" class="know-btn">✓ I know this word</button></div>
+        </div>
+        <div id="scrambleView" class="game-view hidden">
+          <div class="scramble-hud"><span>⏱ <b id="scrambleTimer">30</b>s</span><span>ROUND <b id="scrambleRound">1 / 8</b></span><span>⭐ <b id="scrambleScore">0</b></span></div>
+          <div class="scramble-progress"><span id="scrambleProgress"></span></div>
+          <p class="question-kicker">UNSCRAMBLE THE SPANISH WORD</p>
+          <div class="scramble-clue"><small>ENGLISH CLUE</small><strong id="scrambleClue">the apple</strong></div>
+          <div class="scramble-built" id="scrambleBuilt" aria-label="Your answer">Tap letters below</div>
+          <div class="letter-bank" id="letterBank"></div>
+          <p class="feedback" id="scrambleFeedback" role="status"></p>
+          <div class="scramble-actions"><button class="btn btn-outline" id="scrambleClear">↶ Clear</button><button class="btn btn-outline" id="scrambleHint">💡 Hint</button><button class="btn btn-primary" id="scrambleSubmit">Check answer →</button></div>
+          <button class="btn btn-primary next-btn hidden" id="scrambleNext">Next word →</button>
+        </div>
+        <div id="dashView" class="game-view dash-view hidden">
+          <div class="dash-hud"><span>⏱ <b id="dashTimer">45</b>s</span><span>⭐ <b id="dashScore">0</b></span><span id="dashLives">♥ ♥ ♥</span><span>COMBO <b id="dashCombo">×1</b></span></div>
+          <div class="dash-counter">🍽️ CUSTOMER ORDER</div>
+          <div class="dash-customer"><div class="customer-avatar">🧑‍🍳</div><div><small>THE CUSTOMER WANTS</small><strong id="dashOrder">the apple</strong><p>Choose the correct Spanish item to serve!</p></div></div>
+          <div class="dash-choices" id="dashChoices"></div>
+          <p class="feedback" id="dashFeedback" role="status">A customer is waiting!</p>
+          <p class="dash-tip">Correct orders build your combo. Three mistakes end your shift.</p>
         </div>
         <div id="matchView" class="game-view hidden">
           <p class="question-kicker">FIND THE PAIRS</p><p class="match-instruction">Select a Spanish word, then its English meaning.</p>
